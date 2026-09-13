@@ -1,0 +1,12 @@
+{
+  "nicknamePrefix": "AutoNick",
+  "emergencyContact": {
+    "namePrefix": "AutoContact",
+    "relationship": "Friend",
+    "homeTelephone": "03001234567"
+  },
+  "contactDetails": {
+    "street1Prefix": "Auto Street",
+    "city": "Karachi"
+  }
+}

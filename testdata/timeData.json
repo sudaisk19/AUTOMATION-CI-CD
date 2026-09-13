@@ -1,0 +1,10 @@
+{
+  "attendance": {
+    "punchInNote": "Playwright automated punch in",
+    "punchOutNote": "Playwright automated punch out"
+  },
+  "timesheet": {
+    "projectSearch": "a",
+    "hours": "8"
+  }
+}

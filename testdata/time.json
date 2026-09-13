@@ -1,0 +1,8 @@
+{
+  "timesheet": {
+    "note": "Timesheet for current period - automated TC023"
+  },
+  "attendance": {
+    "note": "Punch In TC024 must run before Punch Out TC025 — use test.describe.serial()"
+  }
+}

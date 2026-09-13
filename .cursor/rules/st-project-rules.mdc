@@ -1,0 +1,18 @@
+---
+alwaysApply: true
+---
+
+Always follow these rules when generating, editing, or refactoring code in this
+project:
+1. Use TypeScript for all Playwright tests.
+2. Follow Page Object Model (POM) structure:
+- /pages for page objects
+- /tests for test files
+- /utils for helpers
+- /fixtures if needed
+3. Use async/await for all Playwright steps.
+4. All selectors must be data-test-id or role-based when possible.
+5. Never hardcode waits. Use proper Playwright assertions.
+6. Test names must be descriptive and clear.
+7. Always generate code that is readable, commented, and consistent.
+8. Organize the project inside a parent folder named playwright-JS-framework.

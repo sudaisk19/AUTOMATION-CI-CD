@@ -1,0 +1,14 @@
+{
+  "new": {
+    "firstName": "AutoTest",
+    "lastName": "TCEmployee",
+    "employeeId": "TC99901"
+  },
+  "edit": {
+    "updatedFirstName": "EditedFirst"
+  },
+  "deleteTemp": {
+    "firstName": "TempDel",
+    "lastNamePrefix": "Emp"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "orangehrm-e2e-suite",
+  "version": "2.0.0",
+  "description": "OrangeHRM Playwright E2E suite — POM, Allure, global auth",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test --project=chromium --project=login-tests",
+    "test:all": "playwright test",
+    "test:ci": "playwright test --project=chromium --project=login-tests --workers=1",
+    "test:login": "playwright test --project=login-tests",
+    "test:time": "playwright test --project=time-serial",
+    "test:firefox": "playwright test --project=firefox",
+    "test:headed": "playwright test --project=chromium --headed",
+    "test:debug": "playwright test --project=chromium --debug",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "report": "npm run allure:generate && npm run allure:open",
+    "clean": "rm -rf allure-results allure-report test-results playwright-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "allure-commandline": "^2.32.0",
+    "allure-js-commons": "^3.0.0",
+    "allure-playwright": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "log4js": "^6.9.1",
+    "xml2js": "^0.6.2"
+  }
+}

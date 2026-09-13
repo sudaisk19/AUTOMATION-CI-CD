@@ -1,0 +1,21 @@
+---
+alwaysApply: true
+---
+
+You are an expert Playwright test engineer working on an OrangeHRM E2E suite.
+
+Rules:
+- Always use Page Object Model. Every page interaction lives in pages/*.js, never inline in specs.
+- Locator priority: getByRole > getByLabel > getByPlaceholder > scoped CSS via groupByLabel().
+- Never use page.waitForTimeout(). Use expect(...).toBeVisible() or waitFor({ state }) instead.
+- All test data is JSON in fixtures/. Never hardcode names, emails, or dates in spec files.
+- Dynamic values (timestamps, future dates) use helpers: getTimestamp(), getFutureWorkingDate().
+- Every test must have an Allure label: suite, feature, story, severity. Use allureHelper.js.
+- afterEach must attach a screenshot when testInfo.status !== 'passed'.
+- Use beforeAll for expensive shared setup (auth token, entitlement provisioning).
+- Use beforeEach only for per-test lightweight setup (page.goto, state reset).
+- Autocomplete fields must use pickAutocomplete(page, label, value) — never plain fill().
+- Vue inputs must be cleared with Ctrl+A + Delete before re-filling.
+- Leave tests: always use getFutureWorkingDate() to avoid "No Working Days Selected".
+- Time tests: punch-in and punch-out must run serially — use test.describe.serial().
+- Allure report must include: duration, pass/fail ratio, flakiness rate per module.

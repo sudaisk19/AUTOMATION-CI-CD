@@ -1,0 +1,11 @@
+{
+  "vacancy": {
+    "titlePrefix": "AutoTC Vacancy",
+    "numPositions": 1
+  },
+  "candidate": {
+    "firstName": "AutoRecruit",
+    "lastName": "TestCandidate",
+    "emailPrefix": "auto.recruit.tc"
+  }
+}

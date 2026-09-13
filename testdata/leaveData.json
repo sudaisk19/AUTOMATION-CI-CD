@@ -1,0 +1,15 @@
+{
+  "validLeave": {
+    "type": "CAN - Vacation",
+    "comment": "Playwright automation test run"
+  },
+  "invalidDateRange": {
+    "fromDateOffsetDays": 10,
+    "toDateOffsetDays": 5
+  },
+  "entitlement": {
+    "leaveType": "CAN - Vacation",
+    "employee": "Paul Collings",
+    "days": "5"
+  }
+}

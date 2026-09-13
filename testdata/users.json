@@ -1,0 +1,22 @@
+{
+  "valid": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalid": {
+    "username": "Admin",
+    "password": "WrongPass999"
+  },
+  "newUser": {
+    "username": "tc_ess_user_AUTO",
+    "password": "Test@9876!",
+    "role": "ESS",
+    "status": "Enabled"
+  },
+  "editTarget": {
+    "newRole": "Admin"
+  },
+  "deleteTarget": {
+    "usernamePrefix": "tc_ess_user_AUTO"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "assign": {
+    "leaveType": "CAN - Vacation",
+    "daysOffset": 7,
+    "comment": "Automated leave assignment - TC008"
+  },
+  "entitlement": {
+    "leaveType": "CAN - Vacation",
+    "days": 60
+  },
+  "negativeDate": {
+    "note": "Use a Saturday — set in test using getFutureDate then add days until Saturday"
+  },
+  "statusFilters": ["Scheduled", "Pending Approval", "Rejected", "Cancelled"]
+}
