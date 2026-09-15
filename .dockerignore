@@ -1,0 +1,9 @@
+node_modules
+.git
+auth.json
+.env
+allure-results
+allure-report
+playwright-report
+test-results
+logs
