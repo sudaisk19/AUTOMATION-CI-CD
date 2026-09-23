@@ -98,7 +98,7 @@ pipeline {
             echo "Tests had failures. Historically flaky: TC006, TC011, TC024. Check the report before assuming regression."
         }
         cleanup {
-            bat "${DOCKER_PATH} rm -f orangehrm-test-${BUILD_NUMBER} 2>nul || exit 0"
+            bat "${DOCKER_PATH} rm -f orangehrm-test-${BUILD_NUMBER} 2>nul || exit /b 0"
         }
     }
 }
